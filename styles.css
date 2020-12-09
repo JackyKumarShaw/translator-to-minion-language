@@ -93,6 +93,7 @@ nav {
 }
 
 footer {
+    clear: both;
     font-family:'Kalam' , cursive;
     padding: 0.5rem 1rem;
     background-color: var(--primary-color);
@@ -114,7 +115,3 @@ footer div {
     color: var(--denim);
     text-decoration: none;
 }
-
-main {
-    margin-bottom: 15rem;;
-} /* If I dont give this margin-bottom: 15rem; then footer is overlapping on webpage content */
