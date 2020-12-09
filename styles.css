@@ -28,15 +28,21 @@ main section {
 
 nav {
     margin-top: 0rem;
-    font-family:'Kalam' , cursive;
-    color:var(--secondary-color);
+    font-family: 'Kalam', cursive;
+    color: var(--secondary-color);
     background-color: var(--primary-color);
     text-align: center;
     margin-left: 1rem;
     margin-right: 1rem;
     margin-bottom: 1rem;
-    border-bottom-left-radius:  1rem;
-    border-bottom-right-radius:  1rem;
+    border: 0.4rem;
+    border-top: none;
+    border-bottom-style: ridge;
+    border-left-style: ridge;
+    border-right-style: ridge;
+    border-color: var(--denim);
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
     font-size: 1.7rem;
 }
 
@@ -46,8 +52,8 @@ nav {
 }
 
 .text-part {
-    float : right;
-    width : 70%;
+    float: right;
+    width: 70%;
     text-align: center;
 }
 
@@ -79,12 +85,12 @@ nav {
     border-color: var(--denim);
     color: var(--secondary-color);
     font-size: 3rem;
-    font-family:'Kalam' , cursive;
+    font-family: 'Kalam', cursive;
     width: 80%;
     height: 17vh;
     margin-top: 2rem;
     margin-bottom: 2rem;
-    outline-color:var(--primary-color);
+    outline-color: var(--primary-color);
 }
 
 #speaking-img {
@@ -94,11 +100,17 @@ nav {
 
 footer {
     clear: both;
-    font-family:'Kalam' , cursive;
+    font-family: 'Kalam', cursive;
     padding: 0.5rem 1rem;
     background-color: var(--primary-color);
     text-align: center;
     color: var(--secondary-color);
+    border: 0.4rem;
+    border-bottom: none;
+    border-top-style: ridge;
+    border-left-style: ridge;
+    border-right-style: ridge;
+    border-color: var(--denim);
     border-top-right-radius: 1rem;
     border-top-left-radius: 1rem;
     margin-left: 1rem;
