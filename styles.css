@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+
+/* font-family: 'Dancing Script', cursive; */
+
+/* font-family: 'Kalam', cursive; */
+
+:root {
+    --primary-color: #ffe135;
+    --secondary-color: black;
+    --denim: #1560bd;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Dancing Script', cursive;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+main section {
+    padding: 0.1rem;
+}
+
+nav {
+    margin-top: 0rem;
+    font-family:'Kalam' , cursive;
+    color:var(--secondary-color);
+    background-color: var(--primary-color);
+    text-align: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    border-bottom-left-radius:  1rem;
+    border-bottom-right-radius:  1rem;
+    font-size: 1.7rem;
+}
+
+.img-part {
+    float: left;
+    width: 30%;
+}
+
+.text-part {
+    float : right;
+    width : 70%;
+    text-align: center;
+}
+
+#reading-img {
+    width: 95%;
+    height: 40vh;
+}
+
+.text-part h2 {
+    padding-right: 1rem;
+    font-size: 1.7rem;
+    margin-bottom: 0.5rem;
+}
+
+.text-part textarea {
+    width: 95%;
+    height: 21vh;
+}
+
+#btn {
+    text-align: center;
+}
+
+#btn button {
+    border: 0.4rem;
+    background-color: var(--primary-color);
+    border-radius: 2rem;
+    border-style: ridge;
+    border-color: var(--denim);
+    color: var(--secondary-color);
+    font-size: 3rem;
+    font-family:'Kalam' , cursive;
+    width: 80%;
+    height: 17vh;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    outline-color:var(--primary-color);
+}
+
+#speaking-img {
+    width: 100%;
+    height: 50vh;
+}
+
+footer {
+    font-family:'Kalam' , cursive;
+    padding: 0.5rem 1rem;
+    background-color: var(--primary-color);
+    text-align: center;
+    color: var(--secondary-color);
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 0rem;
+}
+
+footer div {
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.link {
+    color: var(--denim);
+    text-decoration: none;
+}
+
+main {
+    margin-bottom: 15rem;;
+} /* If I dont give this margin-bottom: 15rem; then footer is overlapping on webpage content */

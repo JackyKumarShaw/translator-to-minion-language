@@ -1,11 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>🍌Speak🍌Banana🍌</title>
+    <link href="styles.css" rel="stylesheet" />
+    <link href="/images/favicon.svg" rel="shortcut icon" type="image/x-icon">
 </head>
+
 <body>
+
+    <nav>
+        <div>
+            <h1>Welcome to English to 🍌Minionese🍌 Translator!</h1>
+        </div>
+    </nav>
+
+    <main>
+        <section>
+
+            <aside class="text-part">
+                <h2><span style="color: var(--denim)">Minion BOB:</span> "Hey! I will read your English text! Please
+                    type it 👇here👇"
+                </h2>
+                <textarea placeholder="Enter Your text in ENGLISH here!"></textarea>
+            </aside>
+
+            <aside class="img-part"><img src="/images/reading-input.png" id="reading-img" /></aside>
+
+        </section>
+
+        <section>
+            <div id="btn"><button>Translate to 🍌Minionese🍌</button></div>
+        </section>
+
+
+        <section>
+
+            <aside class="text-part">
+                <h2><span style="color: var(--denim)">Minion BOB:</span> " The 🍌Minionese🍌 translation of your text
+                    will come
+                    👇here👇"
+                </h2>
+                <textarea placeholder="🍌Minionese🍌 translation of your text appears here!"></textarea>
+            </aside>
+
+            <aside class="img-part"><img src="/images/giving-output.png" id="speaking-img" /></aside>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <div>about</div>
+        <p>Are you a fan of minions? Did you know that the gibberish they say is an actual language. Use the translator
+            to convert your text from English to Minion speak or Banana language.</p>
+        <p>
+            © | 2020 | JACKYogi | Designed with ❤️ using Pure HTML & CSS! | Translation API Credit : 
+            <a class="link" href="https://funtranslations.com/">
+                funtranslations.com
+            </a>
+        </p>
+
+    </footer>
+
+    <script src="/app.js"></script>
     
 </body>
 </html>
