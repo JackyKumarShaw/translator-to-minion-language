@@ -71,6 +71,7 @@ nav {
 .text-part textarea {
     width: 95%;
     height: 21vh;
+    padding:1rem;
 }
 
 #btn {
