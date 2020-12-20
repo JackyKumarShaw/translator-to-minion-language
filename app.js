@@ -32,6 +32,9 @@ function translate(engText) {
 
 //giving input
 function ifClickDoThis() {
+    if(input.value === ""){
+        alert("Please Enter Some Text!")
+    }
     translate(input.value);
 }
 
@@ -52,6 +55,6 @@ btnToTranslate.addEventListener("click", ifClickDoThis);
 
 
 
-//     //just before ending catch() calls the callback function which it has received as parameter, with passing the real error to the callback function
+//     //just before ending, catch() calls the callback function which it has received as parameter, with passing the real error to the callback function
 //     callbackFunctionWhichWeHavePassedToCatchWhileCallingCatch(error);
 // }
